@@ -1,0 +1,6 @@
+Utilisation du transform.php :
+
+http://.../transform.php?id=1
+
+Indiquer le paramètre id dans l'URL pour accéder aux fichiers partie1, partie2, partie3 ... .xsl
+

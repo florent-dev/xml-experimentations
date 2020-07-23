@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<schema xmlns="http://www.w3.org/2001/XMLSchema"
+	xmlns:p="urn:presentation"
+	targetNamespace="urn:presentation"
+	elementFormDefault="qualified">
+
+<element name="presentation">
+
+<!-- definition des complex types -->
+	<complexType>
+		<sequence>
+			<element name="entete" type="p:type_entete"/>
+			<element name="diaporama" type="p:type_diaporama"/>
+		</sequence>
+	</complexType>
+
+</element>
+
+</schema>

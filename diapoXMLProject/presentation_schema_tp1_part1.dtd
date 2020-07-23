@@ -1,0 +1,32 @@
+<!-- Une présentation contient une entête et plusieurs diapositives -->
+<!ELEMENT presentation (entete, diapositive+)>
+
+	<!-- Une entête est composée de modèles -->
+	<!ELEMENT entete (modele+)>
+	
+		<!ELEMENT modele (#PCDATA)>
+		<!ATTLIST modele couleur CDATA #REQUIRED>
+		<!ATTLIST modele taille CDATA #REQUIRED>
+	
+	
+	
+<!-- Une diapositive contient un titre et un corps -->
+	<!ELEMENT diapositive (titre,corps)>
+	
+		<!ELEMENT titre (#PCDATA)>
+		<!ELEMENT corps (bloc+)>
+		
+			<!-- Le corps contient des blocs qui contiennent un p, une liste ou une img -->
+			<!ELEMENT bloc (paragraphe|liste|image)>
+			
+				<!ELEMENT paragraphe (#PCDATA)>
+				<!ATTLIST paragraphe gras CDATA #IMPLIED>
+				<!ATTLIST paragraphe italique CDATA #IMPLIED>
+				<!ATTLIST paragraphe couleur CDATA #IMPLIED>
+				
+				<!ELEMENT liste (item+)>
+					<!ELEMENT item (paragraphe,sousliste*)>
+						<!ELEMENT paragraphe (#PCDATA)>
+						<!ELEMENT sousliste (paragraphe+)>
+			
+				<!ELEMENT image (#PCDATA)>

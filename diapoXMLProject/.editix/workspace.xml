@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><root>
+<file open="false" path="D:\laragon\www\Cours\XML\diapoXMLProject\presentation.xml" type="XML"/>
+<file path="D:\laragon\www\Cours\XML\diapoXMLProject"/>
+<file open="false" path="D:\laragon\www\Cours\XML\diapoXMLProject\presentation_schema.dtd" type="DTD">
+<param name="lastView" value="Source"/>
+</file>
+<file open="true" path="D:\laragon\www\Cours\XML\diapoXMLProject\presentation_schema.xsd" type="XSD"/>
+<file open="true" path="D:\laragon\www\Cours\XML\diapoXMLProject\presentation2.xml" type="XML"/>
+<file open="true" path="D:\laragon\www\Cours\XML\diapoXMLProject\presentation_tp1.xml" type="XML"/>
+<file open="true" path="D:\laragon\www\Cours\XML\diapoXMLProject\presentation_schema_tp1_part1.dtd" type="DTD"/>
+</root>

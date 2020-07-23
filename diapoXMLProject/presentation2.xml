@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<presentation xmlns="urn:presentation2">
+	<entete>
+		<modele nom="bleu" color="0000EE"></modele>
+		<modele nom="rouge"/>
+		<modele nom="vert"/>
+	</entete>
+	<diaporama ref_modele="jaune">
+		<titre>Ma diapo</titre>
+	</diaporama>
+	<diaporama>
+		<titre>Diapo 2</titre>
+	</diaporama>
+</presentation>

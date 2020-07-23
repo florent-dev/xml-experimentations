@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<presentation>
+	<entete>
+		<modele couleur="FF0" taille="18"/>
+	</entete>
+	<diapositive>
+		<titre/>
+		<corps>
+			<bloc>
+				<paragraphe gras="false" italique="false" couleur="FF0"/>
+				<liste>
+					<item>
+						<paragraphe gras="false" italique="false" couleur="FF0"/>
+						<sousliste>
+							<paragraphe gras="false" italique="false" couleur="FF0"/>
+						</sousliste>
+					</item>
+				</liste>
+				<image/>
+			</bloc>
+		</corps>
+	</diapositive>
+</presentation>
